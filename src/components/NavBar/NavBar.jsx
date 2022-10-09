@@ -1,12 +1,15 @@
 import CardWidget from "../CartWidget/CartWidget";
+import NikeLogo from "../../img/nike-logo.png";
+import "./NavBar.css"
 
 const NavBar = () => {
   return (
     <header>
       <p>UNETE A NOSOTROS</p>
       <h1>NIKE STORE</h1>
-      <nav>
+      <nav className="navBar">
         <ul className="navList">
+          <img src= {NikeLogo} alt="Nike Logo" className="NikeLogo"/>
           <a href="#News">
             <li>New & Featured</li>
           </a>
@@ -32,8 +35,9 @@ const NavBar = () => {
             <li>Sale</li>
           </a>
         </ul>
+        <CardWidget/>
       </nav>
-      <CardWidget/>
+      
     </header>
   );
 };

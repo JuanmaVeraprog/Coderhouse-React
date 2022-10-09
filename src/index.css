@@ -11,15 +11,3 @@ code {
   font-family: 'Montserrat', sans-serif;
 }
 
-li {
-  display: inline;
-  padding: 10px;
-}
-
-a {
-  font-style: none;
-}
-
-.navList {
-  list-style: none;
-}
